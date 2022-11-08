@@ -6,25 +6,6 @@ import java.util.Scanner;
  * Hello world!
  */
 
-class PrimeNumber {
-    private int number;
-    private boolean check = true;
-
-    public PrimeNumber(int num) {
-        number = num;
-    }
-
-    public boolean checkNum() {
-        for (int i = 2; i < number; i++) {
-            if (number % i == 0) {
-                check = false;
-                break;
-            }
-        }
-        return check;
-    }
-}
-
 public class App {
     public static void main(String[] args) {
         int number;
